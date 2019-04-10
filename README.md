@@ -1,4 +1,5 @@
 ## README 
+![tennis](https://github.com/phchoi/drlnd-tennis/blob/master/tennis.png)
 
 This project is aimed to solve a multi-agent problem by training a pair of agents in a Tennis playing environment. 
 
