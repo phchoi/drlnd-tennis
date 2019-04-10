@@ -23,6 +23,7 @@ Learning rate of the critic: 0.0001
 L2 weight decay: 0  
 
 ## Results
+The training take 7921 secs to finish, and we can see it progress slowly in the begining of the cycle and ramp up much faster in later cycle.
 
 Episode 100	Average Score: -0.00400 Lowest Score: -0.01000 Highest Score: 0.10000 Elapsed time: 62 secs  
 Episode 200	Average Score: -0.00400 Lowest Score: -0.01000 Highest Score: 0.10000 Elapsed time: 151 secs  
@@ -47,6 +48,9 @@ Episode 2000	Average Score: 0.09500 Lowest Score: -0.01000 Highest Score: 0.6000
 Episode 2100	Average Score: 0.18940 Lowest Score: -0.01000 Highest Score: 1.30000 Elapsed time: 5993 secs  
 Episode 2200	Average Score: 0.38600 Lowest Score: -0.01000 Highest Score: 2.20000 Elapsed time: 7088 secs  
 Episode 2250	Average Score: 0.50560 Lowest Score: -0.01000 Highest Score: 2.60000 Elapsed time: 7921 secs  
+
+Environment solved in 2250 episodes!  
+Average Score for last 100 episode: 0.50560 Elapsed time: 7921 secs  
 
 Here is the plot of the result
 ![training_result](https://github.com/phchoi/drlnd-tennis/blob/master/training_result.png)
