@@ -6,7 +6,6 @@ from ddpg_agent import Agent
 import torch
 import random
 import numpy as np
-#from utilities import soft_update, transpose_to_tensor, transpose_list
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

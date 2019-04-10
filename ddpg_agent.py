@@ -10,35 +10,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import datetime
 
-#BUFFER_SIZE = int(1e5)  # replay buffer size
-#BATCH_SIZE = 512        # minibatch size
-#GAMMA = 0.99            # discount factor
-#TAU = 1e-1              # for soft update of target parameters
-#LR_ACTOR = 1e-4         # learning rate of the actor 
-#LR_CRITIC = 1e-3        # learning rate of the critic
-#LR_CRITIC = 1e-4       # learning rate of the critic
-#WEIGHT_DECAY = 0     # L2 weight decay
-
-#BUFFER_SIZE = int(1e6)  # replay buffer size
-#BATCH_SIZE = 512        # minibatch size
-#GAMMA = 0.99            # discount factor
-#TAU = 1e-3              # for soft update of target parameters
-#LR_ACTOR = 1e-4         # learning rate of the actor 
-#LR_CRITIC = 1e-3        # learning rate of the critic
-##LR_CRITIC = 1e-4       # learning rate of the critic
-#WEIGHT_DECAY = 1e-2     # L2 weight decay
-
-# TAU le-3, LR_A le-4, LR_C le-4, Batch 512, network 256, 128, max score 4 at episode 100-125
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-#print(device)
-#print(BUFFER_SIZE)
-#print(BATCH_SIZE)
-#print(GAMMA)
-#print(TAU)
-#print(LR_ACTOR)
-#print(LR_CRITIC)
-#print(WEIGHT_DECAY)
 
 
 class Agent():
