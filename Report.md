@@ -38,7 +38,7 @@ Episode 1100	Average Score: 0.06850 Lowest Score: -0.01000 Highest Score: 0.4000
 Episode 1200	Average Score: 0.07500 Lowest Score: -0.01000 Highest Score: 0.30000 Elapsed time: 2535 secs  
 Episode 1300	Average Score: 0.06295 Lowest Score: -0.01000 Highest Score: 0.30000 Elapsed time: 2800 secs  
 Episode 1400	Average Score: 0.08900 Lowest Score: -0.01000 Highest Score: 0.50000 Elapsed time: 3117 secs  
-Episode 1500	Average Score: 0.09700 Lowest Score: -0.01000 Highest Score: 0.50000 Elapsed time: 3452 secs
+Episode 1500	Average Score: 0.09700 Lowest Score: -0.01000 Highest Score: 0.50000 Elapsed time: 3452 secs  
 Episode 1600	Average Score: 0.09500 Lowest Score: -0.01000 Highest Score: 0.50000 Elapsed time: 3781 secs  
 Episode 1700	Average Score: 0.14050 Lowest Score: -0.01000 Highest Score: 0.80000 Elapsed time: 4226 secs  
 Episode 1800	Average Score: 0.12000 Lowest Score: -0.01000 Highest Score: 1.00000 Elapsed time: 4628 secs  
@@ -47,6 +47,9 @@ Episode 2000	Average Score: 0.09500 Lowest Score: -0.01000 Highest Score: 0.6000
 Episode 2100	Average Score: 0.18940 Lowest Score: -0.01000 Highest Score: 1.30000 Elapsed time: 5993 secs  
 Episode 2200	Average Score: 0.38600 Lowest Score: -0.01000 Highest Score: 2.20000 Elapsed time: 7088 secs  
 Episode 2250	Average Score: 0.50560 Lowest Score: -0.01000 Highest Score: 2.60000 Elapsed time: 7921 secs  
+
+Here is the plot of the result
+![training_result](https://github.com/phchoi/drlnd-tennis/blob/master/training_result.png)
 
 ## Idea of future works
 Definitely would be try adding optimization methods like Proximal Policy Optimization (PPO) and see will it be able to show any impact to training behavior and performance. 
